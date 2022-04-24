@@ -1,0 +1,111 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi there",
+                "How are you",
+                "Is anyone there?",
+                "Hey",
+                "Hola",
+                "Hello",
+                "Good day"
+            ],
+            "responses": [
+                "Hi there, how can I help?"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye",
+                "Nice chatting to you, bye",
+                "Till next time"
+            ],
+            "responses": [
+                "Bye! Have a nice day"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That's helpful",
+                "Awesome, thanks",
+                "Thanks for helping me"
+            ],
+            "responses": [
+                "Happy to help!"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "noanswer",
+            "patterns": [],
+            "responses": [
+                "Sorry, can't understand you"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Grade Card",
+            "patterns": [
+                "What if I need to know my correct CGPA?",
+                "I have cleared my backlog but the result sheet does not show GPA and CGPA. Why?",
+                "I have cleared my backlog, but the result on ERP is not updated .It still shows earlier CGPA.As a result, it is affecting my CGPA of next trimesters also. How do I get it corrected?"
+
+            ],
+            "responses": [
+                "CGPA is seen on the grade card. The CGPA count can be verified by referring to the passing criteria mentioned in Exam Ordinance 2020 (https://mitwpu.edu.in/examination/images/documents/Examination_Ordinances_2020.pdf)",
+                "GPA and CGPA are not mentioned on backlog grade cards. GPA, CGPA will be highlighted on regular trimester grade card only.",
+                "Grade card shows first attempt GPA and CGPA only. Hence, even if you have cleared backlog, improved CGPA for that trimester will not be seen on grade card."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Grade Card issue",
+            "patterns": [
+                "What do I do if I have not received my grade card?"
+
+            ],
+            "responses": [
+                "Grade cards should be collected from the student section of your Department. If yourgrade card is not available at the student section then you must fill the student assistance form(https://mitwpu.edu.in/images/documents/Student-Assistant-Form.pdf) at Department of Examination and get the remark from the student section on it and submit to Examination Department."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Correction",
+            "patterns": [
+                "My name/Father’s Name/Mother’s name is incorrect on grade card. How do I get it corrected?",
+                " From where should I collect the corrected grade cards/PDC?",
+                " In how many days will I get the corrected grade cards?"
+
+            ],
+            "responses": [
+                "Name correction on grade cards/PDC needs to be done in ERP at the office of student section of your Department. Kindly contact the office of student section for the making the required corrections in ERP. Moreover, student must check his/her personal details from time to time in their ERP login",
+                "You have to collect the corrected grade cards/PDC from Department of Examination.",
+                "Processing of correction on grade cards will take minimum 4 working days after you submit all the required documents at the Department of Examination."
+            ],
+            "context": [
+                ""
+            ]
+        }
+    ]
+}
