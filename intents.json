@@ -61,16 +61,38 @@
             ]
         },
         {
-            "tag": "Grade Card",
+            "tag": "Grade Card 1",
             "patterns": [
-                "What if I need to know my correct CGPA?",
-                "I have cleared my backlog but the result sheet does not show GPA and CGPA. Why?",
+                "What if I need to know my correct CGPA?"
+               
+
+            ],
+            "responses": [
+                "CGPA is seen on the grade card. The CGPA count can be verified by referring to the passing criteria mentioned in Exam Ordinance 2020 (https://mitwpu.edu.in/examination/images/documents/Examination_Ordinances_2020.pdf)"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Grade Card 2",
+            "patterns": [
+                "I have cleared my backlog but the result sheet does not show GPA and CGPA. Why?"
+            ],
+            "responses": [
+                "GPA and CGPA are not mentioned on backlog grade cards. GPA, CGPA will be highlighted on regular trimester grade card only."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Grade Card 3",
+            "patterns": [
                 "I have cleared my backlog, but the result on ERP is not updated .It still shows earlier CGPA.As a result, it is affecting my CGPA of next trimesters also. How do I get it corrected?"
 
             ],
             "responses": [
-                "CGPA is seen on the grade card. The CGPA count can be verified by referring to the passing criteria mentioned in Exam Ordinance 2020 (https://mitwpu.edu.in/examination/images/documents/Examination_Ordinances_2020.pdf)",
-                "GPA and CGPA are not mentioned on backlog grade cards. GPA, CGPA will be highlighted on regular trimester grade card only.",
                 "Grade card shows first attempt GPA and CGPA only. Hence, even if you have cleared backlog, improved CGPA for that trimester will not be seen on grade card."
             ],
             "context": [
@@ -91,21 +113,130 @@
             ]
         },
         {
-            "tag": "Correction",
+            "tag": "Correction 1",
             "patterns": [
-                "My name/Father’s Name/Mother’s name is incorrect on grade card. How do I get it corrected?",
-                " From where should I collect the corrected grade cards/PDC?",
+                "My name/Father’s Name/Mother’s name is incorrect on grade card. How do I get it corrected?"
+
+            ],
+            "responses": [
+                "Name correction on grade cards/PDC needs to be done in ERP at the office of student section of your Department. Kindly contact the office of student section for the making the required corrections in ERP. Moreover, student must check his/her personal details from time to time in their ERP login"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Correction 2",
+            "patterns": [
+                " From where should I collect the corrected grade cards/PDC?"
+
+            ],
+            "responses": [
+                "You have to collect the corrected grade cards/PDC from Department of Examination."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Correction 3",
+            "patterns": [
                 " In how many days will I get the corrected grade cards?"
 
             ],
             "responses": [
-                "Name correction on grade cards/PDC needs to be done in ERP at the office of student section of your Department. Kindly contact the office of student section for the making the required corrections in ERP. Moreover, student must check his/her personal details from time to time in their ERP login",
-                "You have to collect the corrected grade cards/PDC from Department of Examination.",
                 "Processing of correction on grade cards will take minimum 4 working days after you submit all the required documents at the Department of Examination."
             ],
             "context": [
                 ""
             ]
+        },
+
+        {
+            "tag": "Exam Form Issues 1",
+            "patterns": [
+                " Do I need to submit an Exam form for the end term exam?"
+
+            ],
+            "responses": [
+                "Yes, it is necessary to fill exam form for every end term exam."
+            ],
+            "context": [
+                ""
+            ]
+        },
+
+        {
+            "tag": "Exam Form Issues 2",
+            "patterns": [
+                "I have an internal backlog, do I need to submit an exam form?"
+
+            ],
+            "responses": [
+                "Yes, it is necessary to fill exam form for internal backlog also."
+            ],
+            "context": [
+                ""
+            ]
+        },
+
+        {
+            "tag": "Exam Form Issues 3",
+            "patterns": [
+                " I have paid all my outstanding fees, do I still have to submit the exam form?"
+
+            ],
+            "responses": [
+                "You are required to submit an exam form. There is no connection between outstanding fees and an exam form"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        
+        {
+            "tag": "Exam Form Issues 4",
+            "patterns": [
+                " How can I know whether I have an internal backlog or external backlog?"
+
+            ],
+            "responses": [
+                " After you fill and submit the exam form, you should download the PDF of your application  which shows you the details of subjects you applied for, as well as, whether you have to appear for internal or external or both for the mentioned subjects."
+            ],
+            "context": [
+                ""
+            ]
+        },
+
+        
+        {
+            "tag": "Exam Form Issues 5",
+            "patterns": [
+                " What if I was unable to fill the exam form in time?"
+
+            ],
+            "responses": [
+                "It is mandatory to fill the exam form within the stipulated time only. Under any circumstances, you will not be allowed to fill exam form after the date for exam form filling is over"
+            ],
+            "context": [
+                ""
+            ]
+        },
+
+        {
+            "tag": "Exam Form Issues 6",
+            "patterns": [
+                "Do I have to pay exam fees for regular and backlog separately?"
+
+            ],
+            "responses": [
+                "No, Regular and Backlog fees have to be paid together."
+            ],
+            "context": [
+                ""
+            ]
         }
+
+
     ]
 }
